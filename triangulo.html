@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figuras geométricas </title>
+</head>
+<body>
+
+    <header class="flex_row flex_itms_center">
+        <h1 onclick="location.href='./figuras.html'">C.G</h1>
+        <div class="flex_grow">&nbsp;</div>
+        <ul class="flex_row">
+            <li><a href="./cuadrado.html">Cuadrado</a></li>
+            <li><a href="./triangulo.html">Triangulo</a></li>
+        </ul>
+        <div class="flex_grow">&nbsp;</div>
+    </header>
+
+    <div class="container flex_row">
+    
+        <div class="triangulo">
+    
+            <form class="flex_col">
+    
+                <h2>Calcular el perimetro y el area del Triangolo</h2>
+    
+                <label for="entradaLado1">Introduce el valor del primer lado</label>
+                <input id="entradaLado1" type="number" placeholder="Introduce un valor">
+    
+                <label for="entradaLado2">Introduce el valor del segundo lado</label>
+                <input id="entradaLado2" type="number" placeholder="Introduce un valor">
+    
+                <label for="entradaBase">Introduce el valor de la base</label>
+                <input id="entradaBase" type="number" placeholder="Introduce un valor">
+    
+                <label for="entradaBase">Introduce el valor de la altura</label>
+                <input id="entradaAltura" type="number" placeholder="Introduce un valor">
+    
+                <button type="button" onclick="calcularPerimetrotriangulo()">
+                    Calcular Perimetro
+                </button>
+    
+                <button type="button" onclick="calcularareatriangulo()">
+                    Calcular àrea
+                </button>
+    
+                <input id="resultadotriangulo" type="text" placeholder="Resultado">
+    
+            </form>
+    
+        </div>
+    </div>
+    
+    <script src="./figuras.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figuras geométricas </title>
+</head>
+<body>
+
+    <header class="flex_row flex_itms_center">
+        <h1 onclick="location.href='./figuras.html'">C.G</h1>
+        <div class="flex_grow">&nbsp;</div>
+        <ul class="flex_row">
+            <li><a href="./cuadrado.html">Cuadrado</a></li>
+            <li><a href="./triangulo.html">Triangulo</a></li>
+        </ul>
+        <div class="flex_grow">&nbsp;</div>
+    </header>
+    
+    <main class="flex_row flex_itms_center">
+        <div class="cuadrado flex_col flex_itms_center">
+            <div class=" box flex_col ">
+                <h3>Cuadrado</h3>
+                <div class="perimetro">
+                    <h4>Perimetro</h4>
+                    <p>El perímetro es la suma de todos sus lados. Por tanto, en cuadrado es la suma de sus cuatro lados.</p>
+                </div>
+                <div class="area">
+                    <h4>Àrea</h4>
+                    <p>Área cuadrado = lado x lado</p>
+                </div>
+            </div>
+            <button id="buttonGrande" type="button" onclick="location.href='./cuadrado.html'">
+                Calcular
+            </button>
+        </div>
+        <div class="triangulo flex_col flex_itms_center">
+            <div class=" box flex_col ">
+                <h3>Triangulo</h3>
+                <div class="perimetro">
+                    <h4>Perimetro</h4>
+                    <p>El perimetro de un triángulo es la suma de sus dos lados y su base</p>
+                </div>
+                <div class="area">
+                    <h4>Àrea</h4>
+                    <p>El área de un triángulo es igual a base por altura partido por 2</p>
+                </div>
+            </div>
+            <button id="buttonGrande" type="button" onclick="location.href='./triangulo.html'">
+                Calcular
+            </button>
+        </div>
+    </main>
+    <footer class="flex_row flex_itms_center">
+        <h4>C.G &copy;</h4>
+        <div class="flex_grow">&nbsp;</div>
+        <div class="icon">
+            <img id="imgIcon" src="./img/whatsapp.png" alt="whatsapp">
+            <img id="imgIcon" src="./img/facebook.png" alt="whatsapp">
+            <img id="imgIcon" src="./img/instagram.png" alt="whatsapp">
+        </div>
+    </footer>
+
+</body>
+</html>

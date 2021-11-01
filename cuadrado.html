@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figuras geométricas </title>
+</head>
+<body>
+
+    <header class="flex_row flex_itms_center">
+        <h1 onclick="location.href='./figuras.html'">C.G</h1>
+        <div class="flex_grow">&nbsp;</div>
+        <ul class="flex_row">
+            <li><a href="./cuadrado.html">Cuadrado</a></li>
+            <li><a href="./triangulo.html">Triangulo</a></li>
+        </ul>
+        <div class="flex_grow">&nbsp;</div>
+    </header>
+    <h2>Calcular el perimetro y el area del Cuadrado</h2>
+        
+        <div class="flex_row">
+            <div class="flex_grow">&nbsp;</div>
+            <form  class="formCuadrado flex_col flex_itms_center">
+    
+                <label for="entradaLado">Introduce el valor del lado de tu cuadrado</label>
+    
+                <input id="entradaLado" type="number" placeholder="Introduce un valor">
+    
+                <button type="button" onclick="calcularPerimetro()">
+                    Calcular Perimetro
+                </button>
+    
+                <button type="button" onclick="calculararea()">
+                    Calcular àrea
+                </button>
+    
+                <input id="resultado" type="text" placeholder="Resultado">
+    
+            </form>
+            <div class="flex_grow">&nbsp;</div>
+        </div>
+        
+    
+    
+    <script src="./figuras.js"></script>
+</body>
+</html>
